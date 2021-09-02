@@ -7,6 +7,10 @@ body {
   color: #926239;
   line-height: 1.6;
 }
+.bg-dark {
+  background: #926239;
+  color: white;
+}
 .header {
   box-sizing: border-box;
   color: #926239;
@@ -15,7 +19,7 @@ body {
   background-position: center;
   height: 100vh;
   padding: 0 10px;
-  padding-top: 200px;
+  padding-top: 30vh;
   font-size: 1.2em;
   text-align: center;
 }
@@ -43,19 +47,21 @@ body {
   margin-top: 15px;
 }
 .section {
-  height: 33vh;
+  min-height: 33vh;
+  /* height: 33vh; */
   text-align: center;
   padding: 10px;
 }
-.bg-dark {
-  background: #926239;
-  color: white;
+.section:last-of-type {
+  padding: 0;
+  height: initial;
+  min-height: initial;
 }
 .box {
   display: inline-block;
-  width:32.9%;
-}
-.section:last-of-type{
-  padding:0;
-  height: initial;
+  box-sizing: border-box;
+  width: 32.9%;
+  text-align: left;
+  padding: 10px;
+  vertical-align: top;
 }
