@@ -7,7 +7,7 @@ body {
   color: #926239;
   line-height: 1.6;
 }
-.bg-dark {
+.bg-brown {
   background: #926239;
   color: white;
 }
@@ -53,7 +53,7 @@ body {
   overflow: hidden;
 }
 .header > a:hover {
-  background:#926239;
+  background: #926239;
   color: white;
 }
 .section {
